@@ -31,7 +31,7 @@ const navigators = {
 export default function Home() {
   return (
     <main>
-      <h1 className="font-light text-xl sm:text-2xl md:text-4xl px-5 sm:px-20 md:px-32 pt-5">
+      <h1 className="font-light text-xl sm:text-2xl md:text-4xl px-5 sm:px-20 md:px-32 pt-10 xs:pt-5">
         Hey, I'm Rachel. I've been writing about food (and travel, and other
         bits and bobs) for over five years. I currently write for different
         publications, including{" "}
