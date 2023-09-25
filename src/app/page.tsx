@@ -2,7 +2,7 @@ import wine from "@/app/images/wine.png";
 import bao from "@/app/images/bao.jpeg"
 import sandwich from "@/app/images/sandwich.jpeg";
 import Link from "next/link";
-import Image from "next/image";
+
 
 const navigators = {
   about: {
@@ -15,7 +15,7 @@ const navigators = {
   archive: {
     name: "Archive",
     image: sandwich.src,
-    link: "/about",
+    link: "/archive",
     color: "border-[#588c8c]",
     secondaryColor: "bg-[#385454]",
   },
@@ -75,11 +75,11 @@ function Navigator({ navigator }: NavigatorProps) {
       relative max-h-[100%] max-w-[100%] border-[1.5rem] sm:border-[3rem]
       ${color}`}
       >
-        <Image src={image} alt={name} />
+        <img src={image} alt={name} />
       </div>
       <Link href={link}>
         <div
-          className={`absolute top-0 left-0 w-[110%] h-[100%] z-50
+          className={`absolute top-0 left-0 w-[110%] h-[100%] 
   transition duration-200 opacity-0 hover:opacity-100
   p-8 sm:p-12 -translate-x-3 hover:translate-x-0
   flex flex-col justify-center

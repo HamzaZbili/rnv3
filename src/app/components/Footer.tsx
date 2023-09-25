@@ -13,7 +13,6 @@ import facebook from "@/app/components/images/facebook.png";
 import linkedin from "@/app/components/images/linkedin.png";
 import twitter from "@/app/components/images/twitter.png";
 import whatsapp from "@/app/components/images/whatsapp.png";
-import Image from "next/image";
 
 const Footer = () => {
   const [isShareOpen, setIsShareOpen] = useState(false);
@@ -90,7 +89,7 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
 
   return (
     <div
-      className={`transition-all duration-200 ${
+      className={`transition-all duration-200  ${
         isShareOpen
           ? "opacity-100 -translate-y-[1.5rem]"
           : "opacity-0 translate-y-[1rem]"
@@ -98,7 +97,7 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
     >
       {!isShareHidden && (
         <ul
-          className="absolute z-[900] top-0 -translate-y-[100%] -translate-x-[60%]
+          className="absolute top-0  z-50 -translate-y-[100%] -translate-x-[60%]
        bg-gray-100 shadow-lg
    px-8 w-[16rem] border border-gray-200 rounded-md text-[.9rem] font-[510]"
         >
@@ -110,7 +109,7 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
                 className="border-b py-2 hover:opacity-50 transition duration-150"
               >
                 <ButtonComponent url={url} className="flex items-center">
-                  <Image
+                  <img
                     src={media.icon}
                     alt={media.name + "logo"}
                     className="h-6 mr-3"

@@ -2,7 +2,6 @@
 import React, { useRef, useState } from "react";
 import breakfast from "@/app/contact/images/breakfast.jpeg";
 import emailjs from "@emailjs/browser";
-import Image from "next/image";
 
 const page = () => {
   return (
@@ -13,7 +12,7 @@ const page = () => {
         or via Instagram @writefood. Alternatively, leave me a message below!
       </p>
       <div className="mt-20 flex flex-col sm:flex-row lg:mx-20">
-        <Image
+        <img
           src={breakfast.src}
           alt="breakfast"
           className="m-5 w-[stretch] sm:max-w-[50vw]"

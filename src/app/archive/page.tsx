@@ -1,7 +1,6 @@
 import React from "react";
 import { archiveData } from "@/app/archive/archiveData";
-import Link from "next/link";
-import Image from "next/image";
+import Link from "next/link";;
 
 const page = () => {
   return (
@@ -23,7 +22,7 @@ const page = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   src={article.image}
                   alt={article.name}
                   className={`${key !== 0 && "max-h-[40rem]"}`}
