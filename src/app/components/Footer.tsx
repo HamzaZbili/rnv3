@@ -98,7 +98,7 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
     >
       {!isShareHidden && (
         <ul
-          className="absolute z-50 top-0 -translate-y-[100%] -translate-x-[60%]
+          className="absolute z-[900] top-0 -translate-y-[100%] -translate-x-[60%]
        bg-gray-100 shadow-lg
    px-8 w-[16rem] border border-gray-200 rounded-md text-[.9rem] font-[510]"
         >
