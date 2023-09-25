@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 245, 245, 245, 255;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: black;
+  background: rgb(var(--background));
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+footer a {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+footer a:hover {
+  text-decoration: none;
+}
