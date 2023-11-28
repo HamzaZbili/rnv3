@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync": "aws s3 sync ./out s3://rachelnaismith.com",
+    "inv": "aws cloudfront create-invalidation --distribution-id E39WB24PUK2EKX --paths '/*'"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

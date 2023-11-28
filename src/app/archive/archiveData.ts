@@ -1,18 +1,27 @@
-import amagat from "src/app/archive/images/amagat.jpeg";
-import croissant from "src/app/archive/images/croissant.jpeg";
-import bread from "src/app/archive/images/bread.jpeg";
-import iceCream from "src/app/archive/images/ice cream.jpeg";
-import peppitas from "src/app/archive/images/peppitas.jpeg";
-import garance from "src/app/archive/images/garance.jpeg";
-import formule from "src/app/archive/images/formule.jpeg";
-import levaine from "src/app/archive/images/levaine.jpeg";
-import dakos from "src/app/archive/images/dakos.jpeg";
-import ham from "src/app/archive/images/ham.jpeg";
-import budget from "src/app/archive/images/budget.jpeg";
-import donut from "src/app/archive/images/donut.jpeg";
-import tomato from "src/app/archive/images/tomato.jpeg";
-import brasserie from "src/app/archive/images/brasserie.jpeg";
-import bouillon from "src/app/archive/images/bouillon.jpeg";
+import amagat from "@/app/archive/images/amagat.jpeg";
+import croissant from "@/app/archive/images/croissant.jpeg";
+import bread from "@/app/archive/images/bread.jpeg";
+import iceCream from "@/app/archive/images/ice cream.jpeg";
+import peppitas from "@/app/archive/images/peppitas.jpeg";
+import garance from "@/app/archive/images/garance.jpeg";
+import formule from "@/app/archive/images/formule.jpeg";
+import levaine from "@/app/archive/images/levaine.jpeg";
+import dakos from "@/app/archive/images/dakos.jpeg";
+import ham from "@/app/archive/images/ham.jpeg";
+import budget from "@/app/archive/images/budget.jpeg";
+import donut from "@/app/archive/images/donut.jpeg";
+import tomato from "@/app/archive/images/tomato.jpeg";
+import brasserie from "@/app/archive/images/brasserie.jpeg";
+import bouillon from "@/app/archive/images/bouillon.jpeg";
+import pizza from "@/app/archive/images/pizza.jpeg";
+import canal from "@/app/archive/images/canal.jpeg";
+import vintage from "@/app/archive/images/vintage.jpeg";
+import carcassone from "@/app/archive/images/carcassonne.jpeg";
+import malaga from "@/app/archive/images/malaga.jpeg"
+import salamanca from "@/app/archive/images/salamanca.jpeg";
+import valencia from "@/app/archive/images/salamanca.jpeg";
+import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
+
 
 export const archiveData = [
   {
@@ -104,5 +113,53 @@ export const archiveData = [
     image: bouillon.src,
     link: "https://www.parisunlocked.com/food/restaurants/review-bouillon-chartier-paris/",
     color: "bg-[#C0C0A6]",
+  },
+  {
+    name: "Best Pizza Places in Glasgow",
+    image: pizza.src,
+    link: "https://www.travelmag.com/articles/pizza-glasgow/",
+    color: "bg-[#a77e64]",
+  },
+  {
+    name: "Paris' Canal Saint-Martin: A Complete Neighborhood Guide",
+    image: canal.src,
+    link: "https://www.parisunlocked.com/paris-neighbourhoods/canal-st-martin-and-republique/paris-canal-saint-martin-neighborhood-guide/",
+    color: "bg-[#8c8b88]",
+  },
+  {
+    name: "7 Unique Things to Do in Carcassonne",
+    image: carcassone.src,
+    link: "https://www.travelmag.com/articles/things-to-do-carcassonne/",
+    color: "bg-[#68849e]",
+  },
+  {
+    name: "Vintage & Secondhand Shopping in Paris: Best Shops by Neighborhood",
+    image: vintage.src,
+    link: "https://www.parisunlocked.com/shopping-in-paris/vintage-shopping-in-paris-best-shops/",
+    color: "bg-[#a19585]",
+  },
+  {
+    name: "The Best Language Schools to Learn Spanish in Malaga",
+    image: malaga.src,
+    link: "https://www.travelmag.com/articles/spanish-schools-malaga/",
+    color: "bg-[#a4999b]",
+  },
+  {
+    name: "The Best Language Schools to Learn Spanish in Salamanca",
+    image: salamanca.src,
+    link: "https://www.travelmag.com/articles/spanish-schools-salamanca/",
+    color: "bg-[#b29f82]",
+  },
+  {
+    name: "The Best Spanish Language Schools in Valencia",
+    image: valencia.src,
+    link: "https://www.travelmag.com/articles/spanish-schools-valencia/",
+    color: "bg-[#986d3e]",
+  },
+  {
+    name: "The Alcohol-Free Movement in Paris",
+    image: alcoholFree.src,
+    link: "https://bonjourparis.com/lifestyle/the-alcohol-free-movement-in-paris/",
+    color: "bg-[#898173]",
   },
 ];
