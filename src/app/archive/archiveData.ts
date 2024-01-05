@@ -19,7 +19,7 @@ import vintage from "@/app/archive/images/vintage.jpeg";
 import carcassone from "@/app/archive/images/carcassonne.jpeg";
 import malaga from "@/app/archive/images/malaga.jpeg"
 import salamanca from "@/app/archive/images/salamanca.jpeg";
-import valencia from "@/app/archive/images/salamanca.jpeg";
+import valencia from "@/app/archive/images/valencia.jpeg";
 import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
 import breadMenu from "@/app/archive/images/breadMenu.jpeg"
 
