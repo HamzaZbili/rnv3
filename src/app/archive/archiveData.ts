@@ -21,7 +21,7 @@ import malaga from "@/app/archive/images/malaga.jpeg"
 import salamanca from "@/app/archive/images/salamanca.jpeg";
 import valencia from "@/app/archive/images/salamanca.jpeg";
 import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
-
+import breadMenu from "@/app/archive/images/breadMenu.jpeg"
 
 export const archiveData = [
   {
@@ -162,4 +162,12 @@ export const archiveData = [
     link: "https://bonjourparis.com/lifestyle/the-alcohol-free-movement-in-paris/",
     color: "bg-[#898173]",
   },
+  {
+    name: "Bread Trends in Paris: The Avant-Garde Boulangeries",
+    image: breadMenu.src,
+    link: "https://bonjourparis.com/food-restaurant-news/bread-trends-in-paris/",
+    color: "bg-[#c0c1b7]",
+  },
 ];
+
+

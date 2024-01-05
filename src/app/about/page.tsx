@@ -1,6 +1,7 @@
 import React from 'react'
 import rachel from "@/app/about/images/rachel.jpeg"
 
+
 const page = () => {
   return (
     <section className="flex flex-col items-center px-10 sm:px-20 pt-5">
