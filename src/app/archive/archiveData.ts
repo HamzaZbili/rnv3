@@ -1,4 +1,7 @@
+import aShortGuideToLamark from "@/app/archive/images/aShortGuideToLamark.jpeg"
 import amagat from "@/app/archive/images/amagat.jpeg";
+import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
+import breadMenu from "@/app/archive/images/breadMenu.jpeg";
 import croissant from "@/app/archive/images/croissant.jpeg";
 import bread from "@/app/archive/images/bread.jpeg";
 import iceCream from "@/app/archive/images/ice cream.jpeg";
@@ -20,15 +23,31 @@ import carcassone from "@/app/archive/images/carcassonne.jpeg";
 import malaga from "@/app/archive/images/malaga.jpeg"
 import salamanca from "@/app/archive/images/salamanca.jpeg";
 import valencia from "@/app/archive/images/valencia.jpeg";
-import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
-import breadMenu from "@/app/archive/images/breadMenu.jpeg"
 
 export const archiveData = [
+  {
+    name: "A Short Guide to Lamarck",
+    image: aShortGuideToLamark.src,
+    link: "https://www.travelmag.com/articles/lamarck-paris-guide/",
+    color: "bg-[##554f47]",
+  },
   {
     name: "Amagat Review",
     image: amagat.src,
     link: "https://www.palatemag.co.uk/amagat/",
     color: "bg-[#A6A68C]",
+  },
+  {
+    name: "The Alcohol-Free Movement in Paris",
+    image: alcoholFree.src,
+    link: "https://bonjourparis.com/lifestyle/the-alcohol-free-movement-in-paris/",
+    color: "bg-[#898173]",
+  },
+  {
+    name: "Bread Trends in Paris: The Avant-Garde Boulangeries",
+    image: breadMenu.src,
+    link: "https://bonjourparis.com/food-restaurant-news/bread-trends-in-paris/",
+    color: "bg-[#c0c1b7]",
   },
   {
     name: "10 of the Best Croissants in Paris",
@@ -155,18 +174,6 @@ export const archiveData = [
     image: valencia.src,
     link: "https://www.travelmag.com/articles/spanish-schools-valencia/",
     color: "bg-[#986d3e]",
-  },
-  {
-    name: "The Alcohol-Free Movement in Paris",
-    image: alcoholFree.src,
-    link: "https://bonjourparis.com/lifestyle/the-alcohol-free-movement-in-paris/",
-    color: "bg-[#898173]",
-  },
-  {
-    name: "Bread Trends in Paris: The Avant-Garde Boulangeries",
-    image: breadMenu.src,
-    link: "https://bonjourparis.com/food-restaurant-news/bread-trends-in-paris/",
-    color: "bg-[#c0c1b7]",
   },
 ];
 
