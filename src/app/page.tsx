@@ -36,7 +36,7 @@ export default function Home() {
         bits and bobs) for over five years. I currently write for different
         publications, including{" "}
         <span className="italic">
-          Palate Magazine, Travel Mag, HiP Paris, and Paris Unlocked
+          Palate Magazine, Travel Mag, BBC Travel, and Gastro Obscura
         </span>
       </h1>
       <section className="flex flex-col sm:flex-row mt-10">

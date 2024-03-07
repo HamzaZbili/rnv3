@@ -1,3 +1,4 @@
+import beefSteak from "@/app/archive/images/beefSteak.jpg"
 import aShortGuideToLamark from "@/app/archive/images/aShortGuideToLamark.jpeg"
 import amagat from "@/app/archive/images/amagat.jpeg";
 import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
@@ -26,10 +27,16 @@ import valencia from "@/app/archive/images/valencia.jpeg";
 
 export const archiveData = [
   {
+    name: "A Rare Look Inside Britain's 'Sublime Society of Beefsteaks'",
+    image: beefSteak.src,
+    link: "https://www.atlasobscura.com/articles/sublime-society-of-beefsteaks",
+    color: "bg-[#8a8173]",
+  },
+  {
     name: "A Short Guide to Lamarck",
     image: aShortGuideToLamark.src,
     link: "https://www.travelmag.com/articles/lamarck-paris-guide/",
-    color: "bg-[##554f47]",
+    color: "bg-[#554f47]",
   },
   {
     name: "Amagat Review",

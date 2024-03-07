@@ -15,7 +15,7 @@ const page = () => {
         about the city's shifting culinary landscape for publications including
         &nbsp;
         <span className="italic">
-          Palate Magazine, Paris Unlocked and Travel Mag
+          Palate Magazine, Travel Mag, BBC Travel, and Gastro Obscura
         </span>
       </p>
     </section>
