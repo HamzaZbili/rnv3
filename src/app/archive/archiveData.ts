@@ -1,184 +1,183 @@
-import beefSteak from "@/app/archive/images/beefSteak.jpg"
-import aShortGuideToLamark from "@/app/archive/images/aShortGuideToLamark.jpeg"
-import amagat from "@/app/archive/images/amagat.jpeg";
-import alcoholFree from "@/app/archive/images/alcoholFree.jpeg";
-import breadMenu from "@/app/archive/images/breadMenu.jpeg";
-import croissant from "@/app/archive/images/croissant.jpeg";
-import bread from "@/app/archive/images/bread.jpeg";
-import iceCream from "@/app/archive/images/ice cream.jpeg";
-import peppitas from "@/app/archive/images/peppitas.jpeg";
-import garance from "@/app/archive/images/garance.jpeg";
-import formule from "@/app/archive/images/formule.jpeg";
-import levaine from "@/app/archive/images/levaine.jpeg";
-import dakos from "@/app/archive/images/dakos.jpeg";
-import ham from "@/app/archive/images/ham.jpeg";
-import budget from "@/app/archive/images/budget.jpeg";
-import donut from "@/app/archive/images/donut.jpeg";
-import tomato from "@/app/archive/images/tomato.jpeg";
-import brasserie from "@/app/archive/images/brasserie.jpeg";
-import bouillon from "@/app/archive/images/bouillon.jpeg";
-import pizza from "@/app/archive/images/pizza.jpeg";
-import canal from "@/app/archive/images/canal.jpeg";
-import vintage from "@/app/archive/images/vintage.jpeg";
-import carcassone from "@/app/archive/images/carcassonne.jpeg";
-import malaga from "@/app/archive/images/malaga.jpeg"
-import salamanca from "@/app/archive/images/salamanca.jpeg";
-import valencia from "@/app/archive/images/valencia.jpeg";
-
 export const archiveData = [
   {
     name: "A Rare Look Inside Britain's 'Sublime Society of Beefsteaks'",
-    image: beefSteak.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/beef-steak.jpg",
     link: "https://www.atlasobscura.com/articles/sublime-society-of-beefsteaks",
     color: "bg-[#8a8173]",
   },
   {
     name: "A Short Guide to Lamarck",
-    image: aShortGuideToLamark.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/a-short-guide-to-lamark.jpeg",
     link: "https://www.travelmag.com/articles/lamarck-paris-guide/",
     color: "bg-[#554f47]",
   },
   {
     name: "Amagat Review",
-    image: amagat.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/amagat.jpeg",
     link: "https://www.palatemag.co.uk/amagat/",
     color: "bg-[#A6A68C]",
   },
   {
     name: "The Alcohol-Free Movement in Paris",
-    image: alcoholFree.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/alcohol-free.jpeg",
     link: "https://bonjourparis.com/lifestyle/the-alcohol-free-movement-in-paris/",
     color: "bg-[#898173]",
   },
   {
     name: "Bread Trends in Paris: The Avant-Garde Boulangeries",
-    image: breadMenu.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/bread-menu.jpeg",
     link: "https://bonjourparis.com/food-restaurant-news/bread-trends-in-paris/",
     color: "bg-[#c0c1b7]",
   },
   {
     name: "10 of the Best Croissants in Paris",
-    image: croissant.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/croissant.jpeg",
     link: "https://www.parisunlocked.com/food/10-of-the-best-croissants-in-paris-buttery-delights/",
     color: "bg-[#D9D9D9]",
   },
   {
     name: "Nouvelles Boulangeries of Paris",
-    image: bread.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/bread.jpeg",
     link: "https://www.palatemag.co.uk/boulangeries-paris/",
     color: "bg-[#A68C59]",
   },
   {
     name: "Folderol Review",
-    image: iceCream.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/ice-cream.jpeg",
     link: "https://www.palatemag.co.uk/folderol/",
     color: "bg-[#C0A68C]",
   },
   {
     name: "A Short Guide to Triana, Seville",
-    image: peppitas.src,
-    link: "",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/peppitas.jpeg",
+    link: "https://www.travelmag.com/articles/triana-seville-guide/",
     color: "bg-[#D9D9C0]",
   },
   {
     name: "Bouillon Chartier Review",
-    image: garance.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/garance.jpeg",
     link: "https://www.parisunlocked.com/food/restaurants/review-bouillon-chartier-paris/",
     color: "bg-[#C0C0C0]",
   },
   {
     name: "On the French Formule",
-    image: formule.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/formule.jpeg",
     link: "https://www.palatemag.co.uk/formules/",
     color: "bg-[#262626]",
   },
   {
     name: "Artisanal Bread Guide Paris",
-    image: levaine.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/levaine.jpeg",
     link: "https://www.travelmag.com/articles/artisanal-bread-paris/",
     color: "bg-[#C0C0A6]",
   },
   {
     name: "Etsi Review",
-    image: dakos.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/dakos.jpeg",
     link: "https://www.palatemag.co.uk/etsi/",
     color: "bg-[#D9C0A6]",
   },
   {
     name: "Avoiding Bad Food in Paris",
-    image: ham.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/ham.jpeg",
     link: "https://hipparis.com/avoiding-bad-food-in-paris-5-things-you-need-to-know/",
     color: "bg-[#A6C0C0]",
   },
   {
     name: "Paris on a Budget",
-    image: budget.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/budget.jpeg",
     link: "https://hipparis.com/where-to-eat-in-paris-on-a-budget/",
     color: "bg-[#C0A673]",
   },
   {
     name: "Paris Street Food",
-    image: donut.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/donut.jpeg",
     link: "https://www.parisunlocked.com/best-of-paris/street-food-in-paris-my-favorite-spots-for-a-cheap-bite/",
     color: "bg-[#405973]",
   },
   {
     name: "Navigating a French Market",
-    image: tomato.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/tomato.jpeg",
     link: "https://hipparis.com/navigating-the-parisian-markets/",
     color: "bg-[#8C0C0C]",
   },
   {
     name: "Paris's Best Brasseries",
-    image: brasserie.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/brasserie.jpeg",
     link: "https://www.parisunlocked.com/best-of-paris/the-best-brasseries-in-paris-and-brief-history/",
     color: "bg-[#260C0C]",
   },
   {
     name: "A History of Bouillon Chartier",
-    image: bouillon.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/bouillon.jpeg",
     link: "https://www.parisunlocked.com/food/restaurants/review-bouillon-chartier-paris/",
     color: "bg-[#C0C0A6]",
   },
   {
     name: "Best Pizza Places in Glasgow",
-    image: pizza.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/pizza.jpeg",
     link: "https://www.travelmag.com/articles/pizza-glasgow/",
     color: "bg-[#a77e64]",
   },
   {
     name: "Paris' Canal Saint-Martin: A Complete Neighborhood Guide",
-    image: canal.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/canal.jpeg",
     link: "https://www.parisunlocked.com/paris-neighbourhoods/canal-st-martin-and-republique/paris-canal-saint-martin-neighborhood-guide/",
     color: "bg-[#8c8b88]",
   },
   {
     name: "7 Unique Things to Do in Carcassonne",
-    image: carcassone.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/carcassonne.jpeg",
     link: "https://www.travelmag.com/articles/things-to-do-carcassonne/",
     color: "bg-[#68849e]",
   },
   {
     name: "Vintage & Secondhand Shopping in Paris: Best Shops by Neighborhood",
-    image: vintage.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/vintage.jpeg",
     link: "https://www.parisunlocked.com/shopping-in-paris/vintage-shopping-in-paris-best-shops/",
     color: "bg-[#a19585]",
   },
   {
     name: "The Best Language Schools to Learn Spanish in Malaga",
-    image: malaga.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/malaga.jpeg",
     link: "https://www.travelmag.com/articles/spanish-schools-malaga/",
     color: "bg-[#a4999b]",
   },
   {
     name: "The Best Language Schools to Learn Spanish in Salamanca",
-    image: salamanca.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/salamanca.jpeg",
     link: "https://www.travelmag.com/articles/spanish-schools-salamanca/",
     color: "bg-[#b29f82]",
   },
   {
     name: "The Best Spanish Language Schools in Valencia",
-    image: valencia.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/article-images/valencia.jpeg",
     link: "https://www.travelmag.com/articles/spanish-schools-valencia/",
     color: "bg-[#986d3e]",
   },

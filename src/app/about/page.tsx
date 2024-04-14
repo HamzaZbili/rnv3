@@ -1,11 +1,16 @@
 import React from 'react'
-import rachel from "@/app/about/images/rachel.jpeg"
 
 
 const page = () => {
   return (
     <section className="flex flex-col items-center px-10 sm:px-20 pt-5">
-      <img src={rachel.src} alt="rachel" className="mt-10" />
+      <img
+        src={
+          "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/rachel.jpeg"
+        }
+        alt="rachel"
+        className="mt-10"
+      />
       <h4 className="font-bold my-10 text-xl text-center">
         Rachel Naismith is a Paris based food and travel writer.
       </h4>

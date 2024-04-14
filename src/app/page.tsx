@@ -1,27 +1,27 @@
-import wine from "@/app/images/wine.png";
-import bao from "@/app/images/bao.jpeg"
-import sandwich from "@/app/images/sandwich.jpeg";
 import Link from "next/link";
 
 
 const navigators = {
   about: {
     name: "About",
-    image: wine.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/wine.png",
     link: "/about",
     color: "border-[#c08c73]",
     secondaryColor: "bg-[#785444]",
   },
   archive: {
     name: "Archive",
-    image: sandwich.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/sandwich.jpeg",
     link: "/archive",
     color: "border-[#588c8c]",
     secondaryColor: "bg-[#385454]",
   },
   contact: {
     name: "Contact",
-    image: bao.src,
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/bao.jpeg",
     link: "/contact",
     color: "border-[#d9d9d9]",
     secondaryColor: "bg-[#888484]",

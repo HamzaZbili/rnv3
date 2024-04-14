@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sync": "aws s3 sync ./out s3://rachelnaismith.com",
+    "sync": "aws s3 sync ./dist s3://rachelnaismith.com",
     "inv": "aws cloudfront create-invalidation --distribution-id E39WB24PUK2EKX --paths '/*'"
   },
   "dependencies": {

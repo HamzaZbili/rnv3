@@ -8,11 +8,6 @@ import {
   TwitterShareButton,
   WhatsappShareButton,
 } from "react-share";
-import email from "@/app/components/images/email.png";
-import facebook from "@/app/components/images/facebook.png";
-import linkedin from "@/app/components/images/linkedin.png";
-import twitter from "@/app/components/images/twitter.png";
-import whatsapp from "@/app/components/images/whatsapp.png";
 
 const Footer = () => {
   const [isShareOpen, setIsShareOpen] = useState(false);
@@ -70,11 +65,31 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
   const [isShareHidden, setIsShareHidden] = useState(true);
 
   const mediaShareList = [
-    { name: "LinkedIn", button: LinkedinShareButton, icon: linkedin.src },
-    { name: "Facebook", button: FacebookShareButton, icon: facebook.src },
-    { name: "Email", button: EmailShareButton, icon: email.src },
-    { name: "Twitter", button: TwitterShareButton, icon: twitter.src },
-    { name: "WhatsApp", button: WhatsappShareButton, icon: whatsapp.src },
+    {
+      name: "LinkedIn",
+      button: LinkedinShareButton,
+      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/linkedin.png",
+    },
+    {
+      name: "Facebook",
+      button: FacebookShareButton,
+      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/facebook.png",
+    },
+    {
+      name: "Email",
+      button: EmailShareButton,
+      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/email.png",
+    },
+    {
+      name: "Twitter",
+      button: TwitterShareButton,
+      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/twitter.png",
+    },
+    {
+      name: "WhatsApp",
+      button: WhatsappShareButton,
+      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/whatsapp.png",
+    },
   ];
 
   useEffect(() => {
