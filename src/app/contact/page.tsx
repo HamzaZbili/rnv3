@@ -13,7 +13,7 @@ const page = () => {
       <div className="mt-20 flex flex-col sm:flex-row lg:mx-20">
         <img
           src={
-            "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/breakfast.jpeg"
+            "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/breakfast.jpeg"
           }
           alt="breakfast"
           className="m-5 w-[stretch] sm:max-w-[50vw]"

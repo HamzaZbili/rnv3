@@ -6,7 +6,7 @@ const page = () => {
     <section className="flex flex-col items-center px-10 sm:px-20 pt-5">
       <img
         src={
-          "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/rachel.jpeg"
+          "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/rachel.jpeg"
         }
         alt="rachel"
         className="mt-10"

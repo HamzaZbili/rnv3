@@ -68,27 +68,27 @@ function Share({ isShareOpen }: { isShareOpen: boolean }) {
     {
       name: "LinkedIn",
       button: LinkedinShareButton,
-      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/linkedin.png",
+      icon: "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/social-media-icons/linkedin.png",
     },
     {
       name: "Facebook",
       button: FacebookShareButton,
-      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/facebook.png",
+      icon: "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/social-media-icons/facebook.png",
     },
     {
       name: "Email",
       button: EmailShareButton,
-      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/email.png",
+      icon: "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/social-media-icons/email.png",
     },
     {
       name: "Twitter",
       button: TwitterShareButton,
-      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/twitter.png",
+      icon: "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/social-media-icons/twitter.png",
     },
     {
       name: "WhatsApp",
       button: WhatsappShareButton,
-      icon: "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/social-media-icons/whatsapp.png",
+      icon: "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/social-media-icons/whatsapp.png",
     },
   ];
 

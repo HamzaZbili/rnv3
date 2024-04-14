@@ -5,7 +5,7 @@ const navigators = {
   about: {
     name: "About",
     image:
-      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/wine.png",
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/wine.png",
     link: "/about",
     color: "border-[#c08c73]",
     secondaryColor: "bg-[#785444]",
@@ -13,7 +13,7 @@ const navigators = {
   archive: {
     name: "Archive",
     image:
-      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/sandwich.jpeg",
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/sandwich.jpeg",
     link: "/archive",
     color: "border-[#588c8c]",
     secondaryColor: "bg-[#385454]",
@@ -21,7 +21,7 @@ const navigators = {
   contact: {
     name: "Contact",
     image:
-      "https://s3.eu-west-2.amazonaws.com/rachelnaismith.com/public/site-images/bao.jpeg",
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/site-images/bao.jpeg",
     link: "/contact",
     color: "border-[#d9d9d9]",
     secondaryColor: "bg-[#888484]",
