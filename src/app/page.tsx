@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import ScrollingBanner from "./components/ScrollingBanner";
 
 const navigators = {
   about: {
@@ -39,13 +39,14 @@ export default function Home() {
           Palate Magazine, Travel Mag, BBC Travel, and Gastro Obscura
         </span>
       </h1>
-      <section className="flex flex-col sm:flex-row mt-10">
+      <section className="flex flex-col sm:flex-row pt-10">
         <Navigator navigator={navigators.about} />
         <div>
           <Navigator navigator={navigators.archive} />
           <Navigator navigator={navigators.contact} />
         </div>
       </section>
+      {/* <ScrollingBanner /> */}
     </main>
   );
 }
@@ -61,7 +62,7 @@ type Navigator = {
   link: string;
 };
 function Navigator({ navigator }: NavigatorProps) {
-  const { image, name, color, secondaryColor,link } = navigator;
+  const { image, name, color, secondaryColor, link } = navigator;
 
   return (
     <div

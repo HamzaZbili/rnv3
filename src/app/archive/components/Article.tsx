@@ -3,14 +3,14 @@ import React from "react";
 
 interface ArticleProps {
   article: { name: string; image: string; link: string; color: string };
-  index: number
+  index: number;
 }
 
-const Article:React.FC<ArticleProps> = ({ article, index }) => {
+const Article: React.FC<ArticleProps> = ({ article, index }) => {
   return (
     <li
       className={`${article.color}
-            text-white font-light w-[100vw]
+            text-white font-light w-[100vw] 
             ${
               index !== 0 ? "p-3 sm:p-5" : "pt-3"
             } flex flex-col justify-between items-center
@@ -20,7 +20,7 @@ const Article:React.FC<ArticleProps> = ({ article, index }) => {
         <img
           src={article.image}
           alt={article.name}
-          className={`${index !== 0 && "max-h-[40rem]"}`}
+          className={`${index !== 0 ? "max-h-[40rem]" : "max-h-[60rem]"}`}
         />
       </Link>
 

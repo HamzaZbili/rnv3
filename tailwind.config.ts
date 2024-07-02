@@ -5,7 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  
+
   theme: {
     extend: {
       hidden: {
@@ -29,6 +29,16 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    animation: {
+      "infinite-scroll": "infinite-scroll 20s linear infinite",
+    },
+    keyframes: {
+      "infinite-scroll": {
+        from: { transform: "translateX(100vw)" },
+        to: { transform: "translateX(-100%)" },
+      },
+    },
   },
+
   plugins: [],
 };

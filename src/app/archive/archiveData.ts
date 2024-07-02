@@ -1,5 +1,54 @@
 export const archiveData = [
   {
+    name: "From Basketball to Michelin Stars: An Interview with Olympic Chef Alexandre Mazzia",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/alexandre-mazzia.jpeg",
+    link: "https://www.palatemag.co.uk/alexandre-mazzia/",
+    color: "bg-[#4d4d4d]",
+  },
+  {
+    name: "Sandwich Spread: A Potted History",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/pit-mag.jpeg",
+    link: "https://pitmagazine.uk/product/issue-14-illustration/",
+    color: "bg-[#ca5a84]",
+  },
+  {
+    name: "The Rise of Vegan Baking in Paris: Fad or Revolution?",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/vegan-baking.jpeg",
+    link: "https://www.parisunlocked.com/food/the-rise-of-vegan-baking-in-paris-fad-or-revolution/",
+    color: "bg-[#b09c84]",
+  },
+  {
+    name: "Paris' Canal Saint-Martin: A Complete Neighborhood Guide",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/canal-st-m.jpeg",
+    link: "https://www.parisunlocked.com/paris-neighbourhoods/canal-st-martin-and-republique/paris-canal-saint-martin-neighborhood-guide/",
+    color: "bg-[#64797a]",
+  },
+  {
+    name: "Paris' South Pigalle District Guide",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/pigalle.jpg",
+    link: "https://www.parisunlocked.com/paris-neighbourhoods/pigalle-st-georges/paris-south-pigalle-district-rue-des-martyrs-surrounds/",
+    color: "bg-[#807d72]",
+  },
+  {
+    name: "Where To Eat & Drink in Padstow ",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/padstow.jpeg",
+    link: "https://www.travelmag.com/articles/where-to-eat-drink-in-padstow/",
+    color: "bg-[#9e917f]",
+  },
+  {
+    name: "Public House Review",
+    image:
+      "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/public-house.jpeg",
+    link: "https://www.palatemag.co.uk/public-house-paris/",
+    color: "bg-[#a87c48]",
+  },
+  {
     name: "A Rare Look Inside Britain's 'Sublime Society of Beefsteaks'",
     image:
       "https://s3.eu-west-2.amazonaws.com/rachel-naismith-images/article-images/beef-steak.jpg",
@@ -182,5 +231,3 @@ export const archiveData = [
     color: "bg-[#986d3e]",
   },
 ];
-
-
