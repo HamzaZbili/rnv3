@@ -46,7 +46,7 @@ export default function Home() {
           <Navigator navigator={navigators.contact} />
         </div>
       </section>
-      {/* <ScrollingBanner /> */}
+      <ScrollingBanner />
     </main>
   );
 }
@@ -86,7 +86,7 @@ function Navigator({ navigator }: NavigatorProps) {
   flex flex-col justify-center
   ${secondaryColor}`}
         >
-          <h4 className="text-zinc-400 font-light">View</h4>
+          <h4 className="text-zinc-200 font-light">View</h4>
           <h4 className="text-3xl text-white">{name}</h4>
         </div>
       </Link>

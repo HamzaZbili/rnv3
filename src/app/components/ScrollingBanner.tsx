@@ -18,9 +18,15 @@ const ScrollingBanner = () => {
       >
         Latest Work :
         {latestArticles.map((article, index) => (
-          <span key={index} className="px-5 underline cursor-pointer">
+          <a
+            key={index}
+            className="px-5 underline cursor-pointer"
+            href={article.link}
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
             {article.name}
-          </span>
+          </a>
         ))}
       </p>
     </div>
